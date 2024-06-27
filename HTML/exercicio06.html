@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
+    <title>Cálculo de Média Ponderada</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Média Ponderada</h1>
+        
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" placeholder="Digite a primeira nota" step="0.01" required><br>
+        <label for="peso1">Peso 1:</label>
+        <input type="number" id="peso1" placeholder="Digite o peso da primeira nota" step="0.1" required><br>
+        
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" placeholder="Digite a segunda nota" step="0.01" required><br>
+        <label for="peso2">Peso 2:</label>
+        <input type="number" id="peso2" placeholder="Digite o peso da segunda nota" step="0.1" required><br>
+        
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" placeholder="Digite a terceira nota" step="0.01" required><br>
+        <label for="peso3">Peso 3:</label>
+        <input type="number" id="peso3" placeholder="Digite o peso da terceira nota" step="0.1" required>
+        
+        <button onclick="calcularMediaPonderada()">Calcular Média Ponderada</button>
+        <div id="resultado" class="result"></div>
+    </div>
+    
+</body>
+</html>

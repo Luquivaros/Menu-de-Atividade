@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
+    <title>Aprovação em Disciplinas</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Aprovação em Disciplinas</h1>
+        
+        <label for="nota1">Nota da Disciplina 1:</label>
+        <input type="number" id="nota1" placeholder="Digite a nota da primeira disciplina" step="0.1" required><br>
+        
+        <label for="nota2">Nota da Disciplina 2:</label>
+        <input type="number" id="nota2" placeholder="Digite a nota da segunda disciplina" step="0.1" required>
+        
+        <button onclick="verificarAprovacao()">Verificar Aprovação</button>
+        <div id="resultado" class="result"></div>
+    </div>
+    
+</body>
+</html>
